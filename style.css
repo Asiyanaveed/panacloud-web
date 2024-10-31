@@ -1,0 +1,940 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+}
+.imgDiv{
+    position: absolute;
+    z-index: -1;
+    
+    
+}
+.imgDiv img{
+    width: 100%;
+    display: block;
+}
+.header{
+    width: 100%;
+    
+}
+.headerDiv1{
+    width: 100%;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #212121;
+
+}
+.socialDiv{
+    width: 220px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 29px;
+    gap: 5px;
+    
+
+}
+.icons{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.phoneDiv{
+    width: 542px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.phoneDiv p{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 1px;
+}
+.callBtn{
+    
+    margin-left:10px ;
+    padding: 6px 8px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    background-color: #a2d84c;
+    font-size: 12px;
+    font-weight: 600;
+}
+.navBar{
+    width: 100%;
+    height:92px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    
+    
+    
+    
+}
+.navBar img{
+    margin-left: 36px;
+    width: 170px;
+}
+.navList{
+    height: 90px;
+    width: 890px;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    
+
+
+}
+.navList li{
+    list-style: none;
+}
+.navList li a{
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+.sliderImgDiv{
+    width: 100%;
+    height: 557px;
+    ;
+
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  .imgContent{
+    width: 100%;
+    height: 266px;
+    position: absolute;
+    top: 170px;
+    left: 0;
+    
+   
+
+  }
+.imgContenttopDiv{
+    display: flex;
+    justify-content: space-between;
+}
+  .leftDiv{
+    width: 368px;
+    height: 80px;
+    background-color:#a2d84c ;
+  }
+  .rightDiv{
+    width: 368px;
+    height: 80px;
+    background-color: #a2d84c;
+  }
+  .imgContent h1{
+    font-size: 73px;
+   color: white;
+  }
+  .imgContentbottomDiv{
+    height:152px ;
+    width: 100%;
+    margin-top: 28px;
+    text-align: center;
+  }
+.imgContentbottomDiv pre{
+    font-size:21px ;
+   color:white ;
+}
+.btnDiv button{
+     margin-top:50px ;
+     font-size:19px ;
+     padding:12px 41px ;
+     border: none;
+     outline:none ;
+     background-color: #febd19;
+     font-weight: 600;
+     border-radius: 6px;
+     
+}
+.advantageDiv{
+    width: 100%;
+    height: 523px;
+    background-color: white;
+}
+.advantageTop{
+    width:100% ;
+    height: 140px ;
+    text-align: center;
+}
+.advantageTop h1{
+    font-size:49px ;
+    margin-top:35px ;
+    text-decoration: none;
+    color:#668e19 ;
+}
+.sp1{
+    color: black;
+}
+.advantageDiv pre{
+    margin-top:9px ;
+    font-size:16px ;
+    color:#b8b2b2 ;
+    text-decoration: none;
+}
+.bottomIcons{
+    width: 100%;
+    height:278px ;
+    margin-top: 9px;
+    display: flex;
+    gap: 36px;
+    padding-left: 63px;
+}
+.iconsDiv{
+    width:230px ;
+    height:100% ;
+    text-align: center;
+   
+
+}
+.roundDiv{
+    width: 180px;
+    height: 185px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover{
+        box-shadow: 0 0  8px 0     rgba(0,0,0,0.2);
+
+    }
+   
+}
+.iconsh1{
+    font-size:18px ;
+    margin-top:15px ;
+    font-weight: 500;
+    color: black;
+}
+.iconsDiv p{
+    margin-top:2px ;
+    font-weight:580 ;
+    font-size:15px ;
+    color:#b8b2b2 ;
+    text-decoration: none;
+}
+.aboutUsdiv{
+    width: 100%;
+    height: 495px;
+    background-image: url("./pictures/about.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.aboutUsdiv h1{
+    color: #668e19;
+    font-size:48px ;
+    
+    
+}
+.aboutUsdiv .paraDiv{
+    width: 547px;
+    margin-top: 32px;
+    margin-left:85px ;
+    height:240px ;
+    
+}
+.paraDiv p{
+    font-size: 14px;
+    color:black ;
+    font-weight: 600;
+}
+.aboutUsdiv .btnDiv{
+    margin-left: 92px;
+    
+}
+.servicesDiv{
+    width: 100%;
+    height: 500px;
+    /* border: 2px solid black; */
+    background-color: white;
+}
+.servicesDiv h1{
+    color: #668e19;
+    font-weight: 600;
+    font-size:45px ;
+    margin-top: 37px;
+}
+.servicestopDiv pre{
+   margin-top: 11px;
+   font-size: 17px;
+   font-weight: 600;
+   color:#b8b2b2 ;
+   
+}
+.servicesbottomDiv{
+    width: 100%;
+    height: 300px;
+    /* border: 2px solid  red; */
+    padding-left: 89px;
+    display: flex;
+    gap: 18px;
+
+   
+
+}
+.starCardDiv{
+    position: relative;
+    height:230px ;
+    width:300px ;
+    /* border: 2px solid black; */
+    margin-top: 67px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #f2f2f2;
+    
+    &:hover{
+        box-shadow: 0 0 8px rgba(0,0,0,0.2);
+         transform: scale(1.02);
+    }
+    
+}
+.roundStar{
+    position: absolute;
+    top:-40px ;
+    left: 108px;
+    height: 80px;
+    width: 80px;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd19;
+}
+.starCardDiv h1{
+    font-size: 18px;
+    margin-top: 68px;
+    font-weight: 600;
+    color: black;
+    
+}
+.starCardDiv pre{
+    font-size: 15px;
+    margin-top: 5px;
+    font-weight: 600;
+    color: rgb(155, 154,154);
+    margin-bottom: 8px;
+    
+}
+.starCardDiv a{
+    font-size: 20px;
+    font-weight: 550;
+    color: #8ec63f;
+}
+
+.portfolioDiv{
+    height: 750px;
+    width: 100%;
+    /* border: 2px solid red; */
+    text-align: center;
+    background-color: black;
+}
+.portfolioTopDiv{
+    height: 180px;
+    width: 100%;
+    /* border: 2px solid blue; */
+    text-align: center;
+   
+}
+
+
+.portfolioTopDiv h1{
+    font-size:48px ;
+    font-weight: 600;
+    color:#668e19 ;
+    margin-top: 10px;
+}
+.portfolioTopDiv pre{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 6px;
+    color: #b8b2b2;
+}
+.portfolioTopDiv  ul{
+     /* border: 2px solid yellow; */
+     height: 72px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+     
+     
+}
+.portfolioTopDiv ul li{
+     list-style: none;
+    display: inline-block;
+}
+.portfolioTopDiv ul li a{
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+     color: white;
+
+   &:hover{
+    color: #febd19;
+   }  
+}
+.portfoliobottomDiv{
+    height: auto;
+    width: 100%;
+    /* border: 2px  solid  blue; */
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto  auto auto auto auto;
+    grid-template-rows: auto auto;
+
+}
+.portCard{
+    width: 247px;
+    height: 246px;
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+
+    &:hover{
+        background-color: #Ef4136;
+    }
+}
+
+.c1{
+    background-color: white;
+}
+
+.c2{
+    background-color: #5e5e5e;
+}
+
+.c3{
+    background-color: #d2d3d5
+}
+
+.c4{
+    background-color: #838383
+}
+
+.c5{
+    background-color: white;
+}
+
+.c6{
+    background-color: #a3a3a3
+}
+
+.c7{
+    background-color: #d2d3d5
+}
+
+.c8{
+    background-color: white;
+}
+
+.c9{
+    background-color: #6d6a6a
+}
+
+.c10{
+    background-color: #5c5b5b
+}
+.processDiv{
+    width: 100%;
+    height: 524px;
+    border: 2px solid transparent;
+    text-align: center;
+    background-color: white;
+    
+    
+}
+
+.processDiv h1{
+    font-size:48px ;
+    font-weight: 600;
+    color:#668e19 ;
+    margin-top: 65px;
+    
+}
+.processDiv pre{
+    font-size: 15px;
+    font-weight: 600;
+    color: #b8b2b2;
+    margin-top: 8px;
+}
+.processIconDiv{
+   margin-top: 40px;
+   margin-left: 92px;
+    width: 1239px;
+    height: 270px;
+    /* border: 2px solid green; */
+    display: flex;
+    gap: 64px;
+    overflow: hidden;
+   
+}
+.processIconDiv .iconsDiv{
+    height:268px ;
+    width:160px ;
+    /* border: 2px solid red; */
+}
+.processIconDiv .iconsDiv .circlediv{
+    
+    width: 151px;
+    height: 151px;
+    border-radius: 50%;
+    border: 5px solid #d1d2d4;
+    margin-top: 20px;
+    margin-left: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+} 
+.processIconDiv .iconsDiv .circlediv::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left:100% ;
+    height: 4px;
+    width: 72px;
+    background-color: #d1d2d4;
+}
+.processIconDiv .iconsDiv .circlediv .countRoundDiv{
+    position: absolute;
+    top: -20;
+    margin: auto;
+    height:35px ;
+    width:35px ;
+    border-radius: 50%;
+    background-color: #febd19;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.iconsDiv h1{
+    font-size:18px ;
+    color: black;
+    margin-top: 23px;
+}
+.iconsDiv pre{
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 15px;
+    color: #a3a3a3;
+}
+.aboutDiv{
+    width: 100%;
+    height: 573px;
+    background-color: #f2f2f2;
+    /* border: 2px   solid  black; */
+    text-align: center;
+}
+.aboutDiv h1{
+    font-size:48px ;
+    font-weight: 600;
+    color:#668e19 ;
+    margin-top: 38px;
+    
+}
+.aboutDiv pre{
+    font-size: 17px;
+    font-weight: 500;
+    color: #b8b2b2;
+    margin-top: 8px;
+}
+.reviewsDiv{
+    /* width: 1250px;
+    height: 315px; */
+    /* border: 2px solid blue; */
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto  auto;
+    margin: auto;
+    margin-top: 30px;
+
+}
+.reviews{
+    width:623px ;
+    height: 155px;
+    /* border: 2px solid red; */
+    display: flex;
+}
+.profileDiv{
+    height:113px ;
+    width: 110px;
+    /* border: 2px  solid yellow; */
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.profileDiv img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.reviewrightDiv{
+    height: 100%;
+    width: 500px;
+    /* border: 2px solid blue; */
+    margin-left: 18px;
+    text-align: left;
+}
+.reviewrightDiv h1{
+    font-size: 20px;
+    color: black;
+    margin-top: 15px;
+}
+.reviewrightDiv pre{
+    color: black;
+    text-wrap: wrap;
+}
+.skillDiv{
+    width: 100%;
+    height: 485px;
+    /* border: 2px solid red; */
+    text-align: center;
+    background-color: white;
+}
+.skillDiv h1{
+margin-top: 9px;
+font-size:48px ;
+font-weight:600 ;
+color: #668e19;
+}
+.skillDiv pre{
+margin-top:8px ;
+font-size:16px ;
+font-weight:600 ;
+color:#b8b2b2 ;
+}
+.circleprogressDiv{
+    height: 263px;
+    width: 1034px;
+    /* border: 2px solid blue; */
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    gap: 73px;
+}
+.borderCircle{
+    width: 175px;
+    height: 180px;
+    margin-top: 17px;
+    margin-left: 23px;
+    border-radius: 50%;
+    /* border: 4px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.topborderCircle{
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(transparent 0%, transparent 50% , black 50%, black 100%);
+   
+}
+.innerborderCircle{
+    width: 140px;
+    height: 140px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    font-weight: 800;
+}
+
+
+.progressCard{
+    height: 260px;
+    width: 200px;
+    /* border: 2px solid red; */
+    
+}
+.progressCard h1{
+    margin-top: 40px;
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+}
+
+.contactDiv{
+    width: 100%;
+    height: 363px;
+    border: 2px solid transparent;
+    background-color: #8dc73f;
+    text-align: center;
+}
+.contactDiv h1{
+    font-size:65px ;
+    font-weight:600 ;
+    margin-top:50px ;
+    color:white ;
+
+}
+.contactInputDiv{
+    height: 70px;
+    width: 1100px;
+    /* border: 2px   solid blue; */
+    margin: auto;
+    margin-top: 35px;
+    text-align: left;
+    display: flex;
+    gap: 40px;
+}
+.contactInputDiv input{
+    width: 250px;
+    height: 50px;
+    border: none;
+    padding:10px ;
+    font-size:20px ;
+    border-radius: 8px;
+}
+.contactInputDiv button{
+    width: 220px;
+    height: 54px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #febd19;
+    border: none;
+
+}
+.contactDiv  pre{
+    margin-top: 25px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+}
+.contactUsDiv{
+    width: 100%;
+    height: 680px;
+    border: 2px solid transparent;
+    text-align: center;
+    background-color: white;
+}
+.contactUsDiv h1{
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #668e19;
+}
+.contactUsDiv pre{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(201, 198, 198);
+}
+.mapH1{
+    height: 38px;
+    width: 1030px;
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 23px;
+    display:flex ;
+    background-color: white;
+}
+.mapiconDiv{
+    width: 35px;
+    height:35px ;
+    /* border: 2px solid blue; */
+}
+.mapH1 p{
+    text-align: left;
+    margin-left:8px ;
+    margin-top:5px ;
+    font-size:25px ;
+    font-weight: 400;
+}
+.mapphoneDiv{
+    width: 880px;
+    height: 36px;
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-top: 5px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.mapphoneDiv p{
+    font-size: 27px;
+    margin-left: 5px;
+}
+.googleMap{
+    height:403px ;
+    width: 100%;
+    /* border: 2px solid  red; */
+    margin-top: 39px;
+}
+.googleMap iframe{
+    width: 100%;
+    height:400 ;
+}
+.footer{
+    width: 100%;
+    height: 390px;
+    /* border: 2px solid black; */
+    display: flex;
+    background-color: #668e19
+}
+.footter1stdiv{
+    width: 250px;
+    height: 270px;
+    /* border: 2px solid  blue; */
+    margin-top: 57px;
+    margin-left: 92px;
+}
+.footter1stdiv img{
+    width: 170px;
+    
+}
+.footter1stdiv pre{
+    margin-top: 15px;
+    font-weight: 500;
+    color: white;
+}
+.footter1stdiv p{
+    margin-top: 70px;
+    font-size: 20px;
+    color: white;
+}
+.footer2ndDiv{
+    width: 225px;
+    height: 270px;
+    /* border: 2px solid  rgb(9, 9, 15); */
+    margin-top: 57px;
+    margin-left: 130px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    border-right: 2px solid #7bad2d;
+}
+
+.footer2ndDiv h1{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+.footer2ndDiv ul{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.footer2ndDiv ul li {
+    list-style: none;
+    }
+.footer2ndDiv ul li a{
+     font-weight: 600;
+     color: white;
+}
+.footer3rdDiv{
+    width: 244px;
+    height: 270px;
+    /* border: 2px solid  rgb(9, 9, 15); */
+    margin-top: 57px;
+    margin-left: 68px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    border-right: 2px solid #7bad2d;
+}
+.footer3rdDiv h1{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+.footer3rdDiv ul{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.footer3rdDiv ul li {
+    list-style: none;
+    }
+.footer3rdDiv ul li a{
+    font-weight: 600;
+    color: white;
+}
+
+.footer4thDiv{
+    width: 244px;
+    height: 270px;
+    /* border: 2px solid  rgb(9, 9, 15); */
+    margin-top: 57px;
+    margin-left: 68px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+
+    
+}
+.footer4thDiv h1{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+.footer4thDiv p{
+    color: white;
+}
+.footer4thDiv .heading2{
+    font-size: 25px;
+    font-weight: 600;
+   margin-top: 18px;
+   margin-left: 13px;
+}
+.lasticonsDiv{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    gap: 8px;
+}
+
+
+
+
+
+
